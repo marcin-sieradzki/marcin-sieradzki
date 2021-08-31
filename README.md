@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Marcin</h1>
 <h3 align="center">A passionate frontend developer from Poland currently living in Copenhagen, Denamrk</h3>
 
-- 🔭 I’m currently working on [Webuno game](https://nostalgic-mcnulty-07eb25.netlify.app/)
-
 - 📫 How to reach me **marcin.sieradzki97@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
