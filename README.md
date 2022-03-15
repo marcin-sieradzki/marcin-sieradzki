@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Marcin</h1>
-<h3 align="center">A passionate frontend developer from Poland currently living in Copenhagen, Denamrk</h3>
+<h3 align="center">A passionate frontend developer from Poland currently living in Copenhagen, Denmark</h3>
 
 - 📫 How to reach me **marcin.sieradzki97@gmail.com**
 
