@@ -12,11 +12,19 @@ That work is internal, so it isn't on this profile. What's public is below.
 
 ## Building in public
 
-**[Mylder](https://github.com/marcin-sieradzki/Mylder)**: a live map of Copenhagen's buses, S-tog, metro and trains that is honest about how fresh each position is (reported, estimated or stale). React, TypeScript, MapLibre, open data from Rejseplanen. Early days: the app shell, tests and CI are in, the live map is next.
+**[Mylder](https://github.com/marcin-sieradzki/mylder)** · [live demo](https://marcin-sieradzki.github.io/mylder/)
+
+A live map of Copenhagen's buses, S-tog, metro and trains that is honest about how fresh each position is: every vehicle is Live, Ageing, Estimated, Timetable only or No signal, and the map never dresses one up as another. Every vehicle moves along its route, with vehicle and stop panels, a City pulse, a searchable vehicle list and disruptions, in English and Danish, light and dark. Next.js, React 19, MapLibre with deck.gl, and an Effect tracker on the server. Until the Rejseplanen API key arrives it runs on a simulated network, and the demo runs that tracker in a Web Worker in your browser.
+
+**[Perron](https://github.com/marcin-sieradzki/perron)** · [docs](https://marcin-sieradzki.github.io/perron/)
+
+Mylder's design system, published as [`@mylder/perron`](https://www.npmjs.com/package/@mylder/perron): design tokens on the W3C DTCG 2025.10 spec, icons, the Mylder mark, and 68 React components and patterns on Base UI, in four locales. It comes with an MCP server, [`@mylder/perron-mcp`](https://www.npmjs.com/package/@mylder/perron-mcp), so coding agents read the tokens, the docs and the pinned library references, and its components are built by an agent factory: a spec goes in, and code, stories, tests and docs come out through a code review gate.
+
+Both are built with Claude Code from GitHub issues: a spec, tracer-bullet tickets, test-first builds and an automated review on every pull request.
 
 ## Stack
 
-TypeScript, React, Vue 3, Lit, Node.js · Claude Code, Claude Agent SDK, GitHub Copilot SDK, MCP · Vitest, Playwright, Cypress, GitHub Actions
+TypeScript, React, Next.js, Vue 3, Lit, Node.js, Effect · Claude Code, Claude Agent SDK, GitHub Copilot SDK, MCP · Vitest, Playwright, Cypress, Storybook, GitHub Actions
 
 ## Contact
 
